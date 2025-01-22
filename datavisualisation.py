@@ -3,9 +3,9 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Define file paths (adjust according to your folder structure)
-ratings_path = '../Scientific-Programming/data/ml-100k/u.data'  # Ratings data
-movies_path = '../Scientific-Programming/data/ml-100k/u.item'  # Movies data
-users_path = '../Scientific-Programming/data/ml-100k/u.user'   # Users data
+ratings_path = '../PYTHON_FILES/data/ml-100k/u.data'  # Ratings data
+movies_path = '../PYTHON_FILES/data/ml-100k/u.item'  # Movies data
+users_path = '../PYTHON_FILES/data/ml-100k/u.user'   # Users data
 
 # Load the data using pandas
 ratings = pd.read_csv(ratings_path, sep='\t', header=None, names=['user_id', 'movie_id', 'rating', 'timestamp'])
